@@ -85,7 +85,7 @@ public class XO
 
         do
         {
-            System.out.println("Для этого введите координаты клетки X и затем координаты клетки Y");
+            System.out.println("Введите координаты клетки X и затем координаты клетки Y");
             x = scanner.nextInt() - 1;
             y = scanner.nextInt() - 1;
 
@@ -138,6 +138,7 @@ public class XO
 
 //    static boolean isWinner(char symbol)
 //    {
+
 //        if (map[0][0] == symbol && map[0][1] == symbol && map[0][2] == symbol)
 //        {
 //            return true;
